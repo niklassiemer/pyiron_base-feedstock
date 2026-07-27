@@ -12,8 +12,8 @@ package:
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyiron_base-${{ version }}.tar.gz
   sha256: ff1d9394241cf3cbef5d79baa90ae127d4bec0f74b3458506de7896097d800ee
-patches:
-  - pyiron_snippetts.patch
+  patches:
+    - pyiron_snippetts.patch
 
 build:
   number: 0
